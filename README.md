@@ -56,6 +56,26 @@ pnpm run check
 pnpm run build
 ```
 
+### Cloudflare Workers
+
+Run a local Worker preview:
+
+```bash
+pnpm run cf:dev
+```
+
+Check the deploy bundle without publishing:
+
+```bash
+pnpm run deploy:dry-run
+```
+
+Deploy to Cloudflare Workers:
+
+```bash
+pnpm run deploy
+```
+
 ---
 
 ## License
