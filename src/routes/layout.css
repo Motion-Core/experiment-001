@@ -1,0 +1,30 @@
+@import 'tailwindcss';
+
+@font-face {
+	font-family: 'PP Neue Montreal';
+	src: url('../lib/assets/fonts/PPNeueMontreal-Variable.woff2') format('woff2');
+	font-weight: 100 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #000000;
+	font-family:
+		'PP Neue Montreal',
+		ui-sans-serif,
+		system-ui,
+		-apple-system,
+		BlinkMacSystemFont,
+		'Segoe UI',
+		sans-serif;
+}
+
+.tp-rotv {
+	--tp-base-font-family:
+		'PP Neue Montreal', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+		sans-serif;
+}
